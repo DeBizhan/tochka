@@ -128,7 +128,7 @@ def solve(lines):
 def main():
     lines = [line.rstrip("\n") for line in sys.stdin if line.strip()]
     if not lines:
-        print("Ошибка ввода: пустые данные")
+        print("Ошибка ввода: пустой ввод")
         return
     result = solve(lines)
     print(result)
